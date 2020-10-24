@@ -1,0 +1,35 @@
+/* Your st*/
+caption{
+    background-color: #5a73d3 ;
+    color: #fff;
+    padding: 15px;
+    font-size: larger; 
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+table{
+    margin: auto;
+    border-collapse: collapse;
+    width: 80%;
+    caption-side: top;  
+    border-left: 1px solid rgb(233, 243, 241);
+    border-right: 1px solid  rgb(233, 243,241);
+    border-bottom: 1px solid;
+} 
+thead th{
+    background-color: #c7dff1;
+    color: #fff;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-shadow: 2px 0.1px rgb(214, 219, 219);
+    font:  small-caps 12px/30px Georgia;
+    letter-spacing: 2px;
+}
+tbody td{
+    border: 1px solid rgb(241, 241, 241);
+    padding: 12px;
+    text-align: center;
+    border-right: none;
+    border-left: none ;
+}
+

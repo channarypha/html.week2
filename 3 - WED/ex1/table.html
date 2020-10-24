@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        table, th, td {
+        border: 1px solid black;
+        }
+        </style>
+    </head>
+    <!-- How to define table cells that span more than one row or one column: -->
+    <body>
+        <h1>Colspan and rowspan</h1>
+        <h3>Cell that spans two columns:</h3>
+        <table style="width: 61%;">
+            <!-- create here the table using tr, th, td, colspan. -->
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th colspan="2">Phone</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>john.doe@example.com</td>
+                    <td>123-45-678</td>
+                    <td>212-00-546</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>Cell that spans two rows:</h3>
+        <table >
+            <!-- create here the table using tr, th, td, rowspan. -->
+            <thead>
+            <tr>
+                <th>Name</th>
+                <td colspan="2">John Doe</td>   
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Email</th>
+                    <td colspan="2">john.doe@example.com</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">Phone</th>
+                    <td colspan="2">123-45-678</td>
+                </tr>
+                <tr>
+                    <td colspan="2">212-00-546</td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>
